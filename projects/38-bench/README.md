@@ -1,10 +1,10 @@
 # 38. Benchmark the tail, not the mean
 
-Tier 6 — Systems and FFI
+Tier 6: Systems and FFI
 
 ## Why this one
 
-goals.md asserts p99.9 and fails the build on regression. Build that harness.
+The mean hides the stutter people actually notice. Assert on the tail instead.
 
 ## What it must do
 

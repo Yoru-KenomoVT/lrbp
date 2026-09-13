@@ -1,10 +1,10 @@
 # 15. Read a WAV header
 
-Tier 1 — Files and bytes
+Tier 1: Files and bytes
 
 ## Why this one
 
-RIFF is magic + length + chunks. Structurally identical to your .aom container.
+RIFF is magic + length + chunks, the shape most binary containers take.
 
 ## What it must do
 
@@ -43,7 +43,7 @@ before you move to the next.
 ## Hints, shape only
 
 - Every offset must be checked against the file length before use.
-- This is the exact discipline docs/goals.md demands of the moc3 loader.
+- This is the discipline every parser that reads untrusted files needs.
 
 ## Neighbours
 

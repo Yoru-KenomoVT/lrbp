@@ -1,6 +1,6 @@
 # 16. Search files for a pattern
 
-Tier 2 — Text and parsing
+Tier 2: Text and parsing
 
 ## Why this one
 

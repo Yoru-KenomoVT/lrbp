@@ -1,10 +1,10 @@
 # 41. A Dioxus desktop app
 
-Tier 7 — Graphics and UI
+Tier 7: Graphics and UI
 
 ## Why this one
 
-The ayatsuri editor UI. Components, state and events before any of it is load bearing.
+A desktop UI. Components, state and events before any of it is load bearing.
 
 ## What it must do
 

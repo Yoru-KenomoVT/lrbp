@@ -1,10 +1,10 @@
 # 36. Expose a C ABI
 
-Tier 6 — Systems and FFI
+Tier 6: Systems and FFI
 
 ## Why this one
 
-ayatsuri-capi is the load-bearing piece. Every binding depends on getting this right.
+A C ABI is how a Rust library reaches every other language. Get it wrong and nothing can embed it.
 
 ## What it must do
 

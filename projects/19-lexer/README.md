@@ -1,10 +1,10 @@
 # 19. Tokenise a small expression language
 
-Tier 2 — Text and parsing
+Tier 2: Text and parsing
 
 ## Why this one
 
-Turning bytes into meaning. The first half of any parser, including moc3.
+Turning bytes into meaning. The first half of any parser.
 
 ## What it must do
 

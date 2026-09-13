@@ -1,10 +1,10 @@
 # 28. Typed errors, zero panics
 
-Tier 3 — Binary and memory
+Tier 3: Binary and memory
 
 ## Why this one
 
-goals.md forbids unwrap, expect and panic on the runtime path. Learn the alternative.
+Production code should not be able to crash on bad input. Learn the alternative to unwrap.
 
 ## What it must do
 

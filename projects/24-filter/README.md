@@ -1,6 +1,6 @@
 # 24. Image filters on a BMP
 
-Tier 3 — Binary and memory
+Tier 3: Binary and memory
 
 ## Why this one
 

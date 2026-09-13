@@ -1,10 +1,10 @@
 # 25. MessagePack encode and decode
 
-Tier 3 — Binary and memory
+Tier 3: Binary and memory
 
 ## Why this one
 
-The .aom payload format. This is ayatsuri_format's serialisation layer, built by hand.
+A compact binary serialisation format, implemented by hand.
 
 ## What it must do
 
@@ -42,7 +42,7 @@ before you move to the next.
 
 ## Hints, shape only
 
-- docs/aom-format.md says bulk arrays are bin, never lists. Now you will see why.
+- Bulk arrays belong in a bin blob, never a list of individually tagged values.
 - Every length prefix is an opportunity for a hostile file to lie to you.
 
 ## Neighbours

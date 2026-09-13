@@ -1,6 +1,6 @@
 # 14. Parse a delimited table
 
-Tier 1 — Files and bytes
+Tier 1: Files and bytes
 
 ## Why this one
 

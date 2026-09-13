@@ -1,10 +1,10 @@
 # 35. A WebSocket server
 
-Tier 5 — Network and services
+Tier 5: Network and services
 
 ## Why this one
 
-Live bidirectional messaging. VTube Studio's own API is a WebSocket on port 8001.
+Live bidirectional messaging. Most desktop applications that expose a live API do it over WebSocket.
 
 ## What it must do
 
@@ -42,7 +42,7 @@ before you move to the next.
 
 ## Hints, shape only
 
-- Your vts-baldtimer already speaks this protocol as a client. Now write the other half.
+- You have almost certainly used a WebSocket client. Now write the server half.
 - Tracking connected clients is a shared-state problem. You solved that in the threads project.
 
 ## Neighbours

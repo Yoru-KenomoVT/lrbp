@@ -1,10 +1,10 @@
 # 34. A JSON API with actix-web
 
-Tier 5 — Network and services
+Tier 5: Network and services
 
 ## Why this one
 
-Real web service shape. Useful well beyond ayatsuri2d.
+Real web service shape, and the most transferable skill in this tier.
 
 ## What it must do
 

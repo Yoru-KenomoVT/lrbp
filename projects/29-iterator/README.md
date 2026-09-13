@@ -1,6 +1,6 @@
 # 29. Implement Iterator yourself
 
-Tier 4 — Abstraction and proof
+Tier 4: Abstraction and proof
 
 ## Why this one
 

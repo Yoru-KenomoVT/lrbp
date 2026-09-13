@@ -1,10 +1,10 @@
 # 39. A terminal UI
 
-Tier 7 — Graphics and UI
+Tier 7: Graphics and UI
 
 ## Why this one
 
-The fourth way to build a UI, and the cheapest to run. A TUI model inspector is a real tool for ayatsuri2d.
+The fourth way to build a UI, and by far the cheapest to run.
 
 ## What it must do
 

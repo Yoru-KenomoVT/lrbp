@@ -1,10 +1,10 @@
 # 27. Structure of arrays
 
-Tier 3 — Binary and memory
+Tier 3: Binary and memory
 
 ## Why this one
 
-The memory layout ayatsuri2d's runtime is built on. Measure why it matters.
+The memory layout real-time systems are built on. Measure why it matters.
 
 ## What it must do
 
@@ -43,7 +43,7 @@ before you move to the next.
 ## Hints, shape only
 
 - Predict the result before you measure. Then find out if you were right.
-- docs/goals.md chose SoA for this reason; this is you verifying the claim.
+- Real-time engines choose SoA for this reason. This is you verifying the claim.
 
 ## Neighbours
 

@@ -1,6 +1,6 @@
 # 30. Dynamic dispatch versus generics
 
-Tier 4 — Abstraction and proof
+Tier 4: Abstraction and proof
 
 ## Why this one
 

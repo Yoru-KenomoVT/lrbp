@@ -1,10 +1,10 @@
 # 32. Fuzz your parser
 
-Tier 4 — Abstraction and proof
+Tier 4: Abstraction and proof
 
 ## Why this one
 
-goals.md says the loader is fuzzed in CI, seeded with a known-malicious model.
+A parser is only as safe as the inputs someone tried to break it with.
 
 ## What it must do
 
@@ -43,7 +43,7 @@ before you move to the next.
 ## Hints, shape only
 
 - A fuzzer finds what you did not think of. That is the entire value.
-- CVE-2023-27566 exists because the reference moc3 parser was not fuzzed.
+- Most parser CVEs exist because nobody fuzzed the parser.
 
 ## Neighbours
 

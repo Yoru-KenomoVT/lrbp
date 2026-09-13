@@ -1,10 +1,10 @@
 # 12. hexdump -C in Rust
 
-Tier 1 — Files and bytes
+Tier 1: Files and bytes
 
 ## Why this one
 
-The tool you will use constantly once you are reading moc3 and .aom bytes.
+The tool you will reach for constantly once you are reading binary formats.
 
 ## What it must do
 

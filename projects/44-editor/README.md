@@ -1,10 +1,10 @@
 # 44. Dioxus shell around a wgpu viewport
 
-Tier 7 — Graphics and UI
+Tier 7: Graphics and UI
 
 ## Why this one
 
-The actual shape of the ayatsuri editor: UI chrome around a live render surface.
+The shape of a real editor: UI chrome wrapped around a live render surface.
 
 ## What it must do
 
@@ -47,4 +47,4 @@ before you move to the next.
 ## Neighbours
 
 Previous: `../43-skia/`
-This is the last project. Go build ayatsuri2d.
+This is the last project. Go build the thing you started learning this for.

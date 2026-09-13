@@ -1,6 +1,6 @@
 # 10. Caesar cipher
 
-Tier 1 — Files and bytes
+Tier 1: Files and bytes
 
 ## Why this one
 

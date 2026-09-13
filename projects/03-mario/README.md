@@ -1,6 +1,6 @@
 # 03. Build a pyramid
 
-Tier 0 — On-ramp
+Tier 0: On-ramp
 
 ## Why this one
 

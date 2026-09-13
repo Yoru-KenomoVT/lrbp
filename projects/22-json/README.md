@@ -1,10 +1,10 @@
 # 22. Parse JSON by hand
 
-Tier 2 — Text and parsing
+Tier 2: Text and parsing
 
 ## Why this one
 
-Recursive descent on a self-describing format. VTube Studio model files are JSON.
+Recursive descent on a self-describing format. Most application config and model files are JSON.
 
 ## What it must do
 
@@ -15,7 +15,7 @@ Recursive descent on a self-describing format. VTube Studio model files are JSON
 
 ## Pass criteria
 
-Parses a real .vtube.json; round-trips; malformed input reports an offset.
+Parses a real-world JSON file; round-trips byte-identically; malformed input reports an offset.
 
 Full rubric in `../../criteria.md`. Ask for a mark when you think it is done.
 
@@ -42,7 +42,7 @@ before you move to the next.
 
 ## Hints, shape only
 
-- Your own model files are JSON. Parse ariu.vtube.json with it when it works.
+- Point it at a real JSON file from an application you use. Real input finds bugs synthetic input does not.
 - The escape rules are where hand-written JSON parsers usually break. Test them.
 
 ## Neighbours

@@ -1,10 +1,10 @@
 # 26. Design and implement a binary format
 
-Tier 3 — Binary and memory
+Tier 3: Binary and memory
 
 ## Why this one
 
-Writing a format, not just reading one. This IS ayatsuri_format at small scale.
+Writing a format, not just reading one. Reader and writer designed together.
 
 ## What it must do
 
@@ -43,7 +43,7 @@ before you move to the next.
 ## Hints, shape only
 
 - If reading and writing are not written together, they will drift.
-- Compare your header layout against docs/aom-format.md when you are done.
+- Write the layout down as a table before you code it. That table is your spec.
 
 ## Neighbours
 

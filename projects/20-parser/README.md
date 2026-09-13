@@ -1,6 +1,6 @@
 # 20. Tokens to a syntax tree
 
-Tier 2 — Text and parsing
+Tier 2: Text and parsing
 
 ## Why this one
 

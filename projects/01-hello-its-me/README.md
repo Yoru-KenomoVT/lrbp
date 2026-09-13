@@ -1,6 +1,6 @@
 # 01. Hello, it's me
 
-Tier 0 — On-ramp
+Tier 0: On-ramp
 
 ## Why this one
 

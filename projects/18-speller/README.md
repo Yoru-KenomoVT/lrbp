@@ -1,6 +1,6 @@
 # 18. A spell checker with your own hash table
 
-Tier 2 — Text and parsing
+Tier 2: Text and parsing
 
 ## Why this one
 

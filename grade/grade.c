@@ -1,4 +1,4 @@
-/* grade — run a project's binary against its checks and report.
+/* grade, run a project's binary against its checks and report.
  *
  *   ./grade                 list projects that have checks
  *   ./grade 01-hello-its-me run that project's checks

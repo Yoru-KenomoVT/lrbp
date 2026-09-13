@@ -1,6 +1,6 @@
 # 17. Give a tool a real CLI
 
-Tier 2 — Text and parsing
+Tier 2: Text and parsing
 
 ## Why this one
 

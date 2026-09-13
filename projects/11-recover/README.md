@@ -1,10 +1,10 @@
 # 11. Recover JPEGs from a card image
 
-Tier 1 — Files and bytes
+Tier 1: Files and bytes
 
 ## Why this one
 
-Binary scanning. The same shape as finding a magic number in a moc3 file.
+Binary scanning. The same shape as finding a magic number in any file format.
 
 ## What it must do
 

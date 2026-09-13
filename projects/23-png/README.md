@@ -1,6 +1,6 @@
 # 23. Walk PNG chunks
 
-Tier 3 — Binary and memory
+Tier 3: Binary and memory
 
 ## Why this one
 

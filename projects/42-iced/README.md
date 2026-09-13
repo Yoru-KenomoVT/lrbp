@@ -1,6 +1,6 @@
 # 42. The same app in Iced
 
-Tier 7 — Graphics and UI
+Tier 7: Graphics and UI
 
 ## Why this one
 

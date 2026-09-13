@@ -1,10 +1,10 @@
 # 40. Draw a triangle with wgpu
 
-Tier 7 — Graphics and UI
+Tier 7: Graphics and UI
 
 ## Why this one
 
-ayatsumi_render needs a GPU pipeline. Start where every graphics tutorial starts.
+Every renderer needs a GPU pipeline. Start where every graphics tutorial starts.
 
 ## What it must do
 
@@ -43,7 +43,7 @@ before you move to the next.
 ## Hints, shape only
 
 - Pipelines are built at load. A shader compile mid-frame is a 10-100ms stall.
-- That rule from goals.md starts mattering the moment you have more than one pipeline.
+- That starts mattering the moment you have more than one pipeline.
 
 ## Neighbours
 

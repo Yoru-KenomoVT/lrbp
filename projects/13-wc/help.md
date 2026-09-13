@@ -1,4 +1,4 @@
-# Help — Count lines, words and bytes
+# Help: Count lines, words and bytes
 
 ## Concepts introduced here
 
@@ -19,6 +19,7 @@
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 - [std docs](https://doc.rust-lang.org/std/)
 - [Playground](https://play.rust-lang.org/)
+- Local notes: `../../rust-notes.md`
 
 ## When you are stuck
 
@@ -34,12 +35,12 @@ Work in this order. Most of it does not need another person.
 
 ## Errors you will probably hit
 
-- `cannot use the ? operator in a function that returns ()` — the function needs
+- `cannot use the ? operator in a function that returns ()`: the function needs
   to return `Result` so the error has somewhere to go.
-- `expected &[u8], found [u8; N]` — an array is not a slice. Borrow it.
-- `no method named X found` — the trait is probably not in scope. `use std::io::Read;`
-- `borrow of moved value` — something took ownership. Did you mean to borrow?
-- `unclosed delimiter` — run `cargo fmt`; misaligned indentation makes it obvious.
+- `expected &[u8], found [u8; N]`: an array is not a slice. Borrow it.
+- `no method named X found`: the trait is probably not in scope. `use std::io::Read;`
+- `borrow of moved value`: something took ownership. Did you mean to borrow?
+- `unclosed delimiter`: run `cargo fmt`; misaligned indentation makes it obvious.
 
 ## Asking for a mark
 

@@ -3,14 +3,14 @@
 Every project in `projects/` is marked against this. It does not change between
 projects, so progress across them is comparable.
 
-Ask for a mark whenever you want one. Partial work is fine to submit — the
+Ask for a mark whenever you want one. Partial work is fine to submit, the
 point is to show where the gaps are, not to withhold a grade until perfect.
 
 ---
 
 ## The six categories
 
-### 1. Correctness — does it do the job
+### 1. Correctness: does it do the job
 
     MET       meets the project's stated pass criteria in full
     PARTIAL   works for the common case, fails an edge case or a stated rule
@@ -18,26 +18,27 @@ point is to show where the gaps are, not to withhold a grade until perfect.
 
 Checked by running it, not by reading it.
 
-### 2. Safety — can it be made to crash
+### 2. Safety: can it be made to crash
 
     MET       no unwrap, expect or panic outside tests. No raw indexing where
               the index is not provably in range. Bad input produces an error.
     PARTIAL   handles the obvious failures, panics on an unusual one
     NOT MET   unwrap or expect on the main path, or panics on malformed input
 
-Ayatsuri2D's `docs/goals.md` forbids `unwrap`, `expect`, `panic!` and raw
-indexing on the runtime path. This category is that rule, practised early.
+Code that reads untrusted input should not be able to crash on it. A panic is
+not error handling, it is the absence of it.
 
-### 3. Memory — is the work bounded
+### 3. Memory: is the work bounded
 
     MET       reads in chunks, allocates outside hot loops, no whole-file slurp
               unless the size is genuinely bounded and that is stated
     PARTIAL   works but allocates more than it needs to
     NOT MET   loads unbounded input into memory, or allocates per iteration
 
-From `goals.md`: allocation happens at load, the frame loop allocates nothing.
+The general rule: allocate at setup, not inside the loop that runs a million
+times.
 
-### 4. Idiom — does it read like Rust
+### 4. Idiom: does it read like Rust
 
     MET       cargo clippy clean, cargo fmt clean
     PARTIAL   a handful of clippy warnings
@@ -46,14 +47,14 @@ From `goals.md`: allocation happens at load, the frame loop allocates nothing.
 Run `cargo clippy` before asking. It is free marks and it teaches idiom faster
 than being told.
 
-### 5. Structure — is it composed
+### 5. Structure: is it composed
 
     MET       split into functions with names that say what they do; main is
               short; no function doing three unrelated things
     PARTIAL   mostly one long function but the logic is clear
     NOT MET   everything in main, deep nesting, repeated blocks
 
-### 6. Tests — is correctness checked by something other than you
+### 6. Tests: is correctness checked by something other than you
 
     MET       tests covering the happy path and at least the rejection cases
               the project names

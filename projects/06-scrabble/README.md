@@ -1,6 +1,6 @@
 # 06. Score a word
 
-Tier 0 — On-ramp
+Tier 0: On-ramp
 
 ## Why this one
 

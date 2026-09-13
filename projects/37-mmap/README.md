@@ -1,10 +1,10 @@
 # 37. Memory-mapped zero-copy reads
 
-Tier 6 — Systems and FFI
+Tier 6: Systems and FFI
 
 ## Why this one
 
-The .aom read path. Bulk vertex blobs must be read without copying.
+Reading large files without copying them.
 
 ## What it must do
 

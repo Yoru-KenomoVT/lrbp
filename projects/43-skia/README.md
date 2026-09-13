@@ -1,10 +1,10 @@
 # 43. Draw the puppet yourself with tiny-skia
 
-Tier 7 — Graphics and UI
+Tier 7: Graphics and UI
 
 ## Why this one
 
-2D vector rendering with no UI framework at all. This is closest to what a Live2D runtime actually does.
+2D vector rendering with no UI framework at all. This is closest to what a 2D animation runtime actually does.
 
 ## What it must do
 
@@ -43,8 +43,8 @@ before you move to the next.
 ## Hints, shape only
 
 - tiny-skia is pure Rust; skia-safe binds real Skia and is far harder to build. Start with tiny-skia.
-- A parameter driving a transform driving a drawn part IS the Live2D model, minus the rigging.
-- goals.md: allocation happens at load, the frame loop allocates nothing. Prove yours does not.
+- A parameter driving a transform driving a drawn part is the core of any 2D animation runtime.
+- Allocate at setup, never inside the frame loop. Prove yours does not.
 
 ## Neighbours
 

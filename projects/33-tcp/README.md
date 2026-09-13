@@ -1,6 +1,6 @@
 # 33. A TCP echo server
 
-Tier 5 — Network and services
+Tier 5: Network and services
 
 ## Why this one
 
