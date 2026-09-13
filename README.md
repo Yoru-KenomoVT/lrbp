@@ -20,7 +20,7 @@ grade
 01-hello-its-me
   PASS  greets the name given
   PASS  no stray blank line
-  FAIL  trims surrounding whitespace    got "Hello,   Chace", wanted "Hello, Chace"
+  FAIL  trims surrounding whitespace    got "Hello,   Yoru", wanted "Hello, Yoru"
   PASS  survives empty input
   PASS  exits cleanly
   5/6
