@@ -1,0 +1,7 @@
+target/
+Cargo.lock
+grade/grade
+*.o
+
+# your own progress and working notes
+PROGRESS.md
